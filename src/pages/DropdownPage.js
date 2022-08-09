@@ -3,7 +3,10 @@ import Dropdown from "../components/Dropdown/Dropdown";
 
 const DropdownPage = () => {
     return (
-        <Dropdown />
+        <section>
+            <h4>You must choose. But choose wisely</h4>
+            <Dropdown />
+        </section>
     );
 }
 
