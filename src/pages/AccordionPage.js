@@ -3,7 +3,10 @@ import Accordion from "../components/Accordion/Accordion";
 
 const AccordionPage = () => {
     return (
-        <Accordion />
+        <section>
+            <h2>Accordion</h2>
+            <Accordion />
+        </section>
     );
 }
 
