@@ -1,10 +1,11 @@
 import React from "react";
 
-const Searchbar = () => {
+const Searchbar = ({ value, setValue, loading }) => {
     return (
-    <div>
-        Searchbar
-    </div>
+        <div className={`ui icon input ${loading && "loading"}`}>
+            <input type="text" value={value} onChange={(e) => setValue(e.target.value)} />
+            <i class="search icon"></i>
+        </div>
     );
 }
 
